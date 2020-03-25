@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+}
+
+header {
+    background: #262626;
+    height: 400px;
+    color: #FFF;
+}
+
+header .logo {
+    text-align: center;
+    height: 340px;
+    color: #FFF;
+    background-color: rgb(22, 22, 71);
+}
+
+header .icons {
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+header .icons .fab {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 70%;
+    color: #FFF;
+}
+
+header .icons .fab:hover {
+    opacity: 0.7;
+}
+
+nav {
+    background-color: rgb(22, 22, 71);
+    height: 50px;
+    margin-left: -30px;
+}
+
+nav::after {
+    display: block;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+ul li {
+    float: left;
+    position: relative;
+    width: 160px;
+    font-size: small;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 15px 20px;
+}
+
+ul li:hover a {
+    background: rgb(49, 20, 110);
+}
+
+ul ul {
+    position: absolute;
+    padding: 0;
+    display: none;
+    left: 0;
+    top: 100%;
+    min-width: 160px;
+}
+
+ul ul li {
+    position: relative;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+ul ul li:hover a {
+    background: #262626;
+    display: block;
+}
+
+ul ul ul {
+    top: 0;
+    left: 100%;
+    padding: 0px;
+    margin: 0;
+}
+
+ul ul ul li a {
+    display: none;
+}
+
+ul ul ul li:hover a {
+    background: rgb(49, 20, 110);
+}
+
+#value {
+    margin: 15px 20px;
+}
+
+.fas {
+    margin-right: 5px;
+}
